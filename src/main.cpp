@@ -222,7 +222,7 @@ void loop()
 {
 
   unsigned long currentMillis = millis();
-  Serial.print("Cobalah");
+  Serial.print("Cobalah #1");
   if (currentMillis - previousMillis >= interval)
   {
     previousMillis = currentMillis;
